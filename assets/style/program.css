@@ -1,0 +1,23 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.program-box {
+    max-width: 650px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.program-box img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.table {
+    margin-top: 20px;
+}

@@ -1,0 +1,72 @@
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+}
+
+.navbar-brand img {
+    width: 100px;
+    height: 50px;
+}
+
+.brand-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#keunggulan {
+    padding: 50px 0;
+}
+
+#keunggulan h2 {
+    margin-bottom: 30px;
+}
+
+.keunggulan-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.keunggulan-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.keunggulan-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.keunggulan-card h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.keunggulan-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Tombol Kembali */
+.back-button {
+    margin-top: 30px;
+}
+
+.back-button .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+    text-decoration: none;
+}
+
+.back-button .btn:hover {
+    background-color: #0056b3;
+}
