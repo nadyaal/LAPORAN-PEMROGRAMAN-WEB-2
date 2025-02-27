@@ -1,32 +1,22 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
-}
-
 h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
-
 .card {
     transition: transform 0.3s ease-in-out;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 .card:hover {
     transform: scale(1.05);
 }
-
 .btn-primary {
     background-color: #007bff;
     border: none;
-    padding: 10px 20px;
-    font-size: 1.1rem;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
-
 .btn-primary:hover {
     background-color: #0056b3;
-}
-
-.list-unstyled li {
-    font-size: 1.1rem;
-    padding: 5px 0;
 }
